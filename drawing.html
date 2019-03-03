@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<title>WebGL - Desenhando</title>
+	<!-- <style type="text/css" href="resources/webgl-tutorials.css"></style> -->
+	<style type="text/css">
+		@import url("resources/webgl-tutorials.css");
+		* { margin: 0; padding: 0;}
+		body, html { height:100%; }
+		canvas {
+		  width: 100vw;
+		  height: 100vh;
+		  display: block;
+		}
+		a {
+			position: absolute;
+			z-index: 99;
+			background-color: white;
+		}
+	</style>
+</head>
+<body onload="main()">
+	<a href="/">Inicio</a>
+	<canvas id="glCanvas">Seu navegador não suporta canvas!</canvas>
+	<script type="text/javascript" src="resources/webgl-utils.js"></script>
+	<script type="text/javascript" src="resources/webgl-lessons-ui.js"></script>
+	<script type="text/javascript" src="scripts/drawing.js"></script>
+</body>
+</html>
