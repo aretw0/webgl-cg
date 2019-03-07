@@ -25,8 +25,8 @@ As atividades serão:
 	- Adicionar interação com o Mouse a fim de abrir menu que permite modificar o objeto animado e a cor do mesmo.
 3. Acrescentar na sua proteção de tela, agora em 3D, as operações de translação, escala e rotação.
 	- Possibilite que o usuário mude o sentido de rotação pelo teclado.
-	- Adicione no menu da aplicação uma opção em que o usuário possa escolher entre uma projeção perspectiva ou paralela (adicione múltiplas configurações para cada tipo de projeção).
-	- Inclua pelo teclado a opção do usuário mudar a posição de observação da cena, a direção de visualização e orientação da câmera.
+	- Adicione uma forma do usuário possa escolher entre uma projeção perspectiva ou paralela (adicione múltiplas configurações para cada tipo de projeção).
+	- Inclua uma forma do usuário mudar a posição de observação da cena, a direção de visualização e orientação da câmera.
 4. Implementar um visualizador de objetos 3D
 	- Construa uma estrutura de dados para representação de coordenadas, vértices e faces da estrutura.
 	- Implemente um leitor de arquivos do formato ply (https://en.wikipedia.org/wiki/PLY_(file_format) e http://paulbourke.net/dataformats/ply/) para fazer a leitura dos objetos.
@@ -39,5 +39,5 @@ As atividades serão:
 
 1. [Drawing](./drawing.html).
 2. [SaveScreen](./savescreen.html).
-3. [SaveScreen3D](./).
+3. [SaveScreen3D](./savescreen3d.html).
 4. [MontyPlython](./)
